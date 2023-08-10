@@ -9,8 +9,8 @@
 #define DHTPIN D4
 DHT dht(DHTPIN, DHTTYPE);
 
-const char *SSID = "FPT ";  // Remove the extra space at the end
-const char *PASSWORD = "0985559059";
+const char *SSID = "*** ";  // Remove the extra space at the end
+const char *PASSWORD = "******";
 const char *URL = "http://192.168.1.252:5555/api/sensors";
 
 ESP8266WiFiMulti WiFiMulti;
